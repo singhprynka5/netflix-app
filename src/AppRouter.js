@@ -14,7 +14,11 @@ const AppRouter = () => {
     },
   ]);
 
-  return <RouterProvider router={appRoutes} />;
+  return (
+    <div>
+      <RouterProvider router={appRoutes} />
+    </div>
+  );
 };
 
 export default AppRouter;

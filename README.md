@@ -31,6 +31,18 @@
 - Build Movie List
 - Build Movie Card
 - Added TMDB image CDN URL
+- GPT Search Feature
+- GPT Search Bar
+- Multi-language Feature in our App
+- Get Open AI API Key
+- GPT Search API Call
+- Fetched gptMoviesSuggestions from TMBD
+- Created gptSlice added data
+- Show Movie suggestion container
+- Memoization
+- Added .env file
+- Added .env file to .gitignore
+- Made site Responsive
 
 # Features
 
@@ -47,3 +59,7 @@
 - NetflixGPT
   - Search Bar
   - Movie Suggestions
+
+# Project Setup
+
+- Before starting the project please add .env file and add TMDB and OPENAI KEY into it.
