@@ -4,7 +4,7 @@ import useNowPlayingMovies from "../customHooks/useNowPlayingMovies";
 import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
 import usePopularMovies from "../customHooks/usePopularMovies";
-import GptSearch from "./GptSearch";
+import GPTSearch from "./GPTSearch";
 
 const Browse = () => {
   const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
@@ -16,7 +16,7 @@ const Browse = () => {
     <div>
       <Header />
       {showGptSearch ? (
-        <GptSearch />
+        <GPTSearch />
       ) : (
         <>
           <MainContainer />

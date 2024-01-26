@@ -90,11 +90,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img
-          className="h-screen object-cover"
-          src={BACKGROUND_IMG}
-          alt="background"
-        />
+        <img className="object-cover" src={BACKGROUND_IMG} alt="background" />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
